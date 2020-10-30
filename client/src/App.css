@@ -1,0 +1,29 @@
+.nav-color {
+  background-color: #17a2b8 !important;
+}
+
+.shelf-changer {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: teal;
+}
+
+.book-list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.book-list .book-item {
+  width: 32%;
+  margin: 5px;
+}
+
+.book:hover {
+  background-color: #eee;
+  transition: 0.5s;
+}
+
+.book-description {
+  font-size: 12px;
+}
